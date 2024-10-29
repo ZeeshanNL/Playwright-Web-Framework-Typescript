@@ -16,6 +16,7 @@ export class LoginHelper {
     }
 
     async navigateToLoginPage() {
+        await this.ElementActions.maximizeWindow();
         await this.ElementActions.navigateToUrl(Constants.BASE_URL);
     }
 

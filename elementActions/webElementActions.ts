@@ -18,6 +18,13 @@ export class ElementActions {
     }
 
     /**
+    * Maximize the window
+    */
+    async maximizeWindow(): Promise<void> {
+        await this.page.setViewportSize({ width: 1920, height: 1080 });
+    }
+
+    /**
     * Click on an element.
     * @param locator - The element to click on.
     * @param waitTimeOut - The timeout for element display (default: Timeouts.MEDIUM).
