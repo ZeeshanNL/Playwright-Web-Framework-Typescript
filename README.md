@@ -40,3 +40,10 @@ npx playwright show-report
 
 - TypeScript
 - Playwright
+- Visual Studio Code
+
+## Install Latest Playwright Version 
+
+```bash
+npm init playwright@latest
+```
