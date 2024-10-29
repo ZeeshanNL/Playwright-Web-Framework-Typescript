@@ -17,7 +17,7 @@ A web regression testing framework built with Playwright and TypeScript.
 npm install
 ```
 
-### Running Tests
+## Running Tests
 
 Run tests on Chrome:
 ```bash
@@ -42,13 +42,13 @@ npx playwright show-report
 - Playwright
 - Visual Studio Code
 
-## Install Latest Playwright Version 
+# Install Latest Playwright Version 
 
 ```bash
 npm init playwright@latest
 ```
 
-## Comamnd to Launch Codegen
+# Comamnd to Launch Codegen
 
 ```bash
 npx playwright codegen
