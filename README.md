@@ -1,11 +1,12 @@
-# Web Regression Testing Framework
+# Playwright Web Regression Testing Framework
 
-A web regression testing framework built with WebDriverIO, TypeScript, and Cucumber.
+A web regression testing framework built with Playwright and TypeScript.
 
 ## Prerequisites
 
-- Node.js (^18.16.0)
-- npm (^9.5.1)
+- Node.js 
+- npm
+- Visual Studio Code
 
 ## Installation
 
@@ -16,35 +17,26 @@ A web regression testing framework built with WebDriverIO, TypeScript, and Cucum
 npm install
 ```
 
-## Available Scripts
-
 ### Running Tests
 
-Run tests:
+Run tests on Chrome:
 ```bash
-npm npm run wdio "@Login"
+npx playwright test --project=chromium --headed
 ```
 
-Run tests with coverage:
+Run tests (headless):
 ```bash
-npm run test:cov
-```
-
-
-Format code with Prettier:
-```bash
-npm run prettify
+npx playwright test
 ```
 
 ## Test Reports
 
-Generate and open Allure reports:
+Generate and open HTML reports:
 ```bash
-npm run report
+npx playwright show-report
 ```
 
 ## Development Requirements
 
 - TypeScript
-- Prettier
-- WebDriverIO
+- Playwright
