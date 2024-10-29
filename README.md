@@ -47,3 +47,9 @@ npx playwright show-report
 ```bash
 npm init playwright@latest
 ```
+
+## Comamnd to Launch Codegen
+
+```bash
+npx playwright codegen
+```
